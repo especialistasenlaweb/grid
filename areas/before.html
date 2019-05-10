@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<meta charset="UTF-8">
+	<title>Bola</title>
+	<style>
+		
+		.bola{
+			background:radial-gradient(at top left,teal, white);
+			border-radius:50%;
+			height:200px;
+			position:relative;
+			/*margin:0 auto;*/
+			width:200px;
+
+		}
+		.bola::after{
+			background:rgba(0,0,0,0.5);
+			border-radius:50%;
+			box-shadow:0 0 0.2em #000;
+			bottom:-0.5em;
+			content:"";
+			display:block;
+			height:15px;
+			left:50%;
+			position:absolute;
+			width:150px;
+			z-index:-1;
+		}
+		
+		/*.bola::after{
+			content:".00";
+		}
+		.bola::before{
+			content:"$ ";
+		}*/
+	</style>
+</head>
+<body>
+	<div class="bola"></div>
+	
+</body>
+</html>
