@@ -1,0 +1,21 @@
+.contenido{
+	display:grid;
+	grid-template:300px 200px/repeat(7,1fr);
+	width:100%;
+}
+.hijo{
+	border:#000 0.01em solid;
+	background:lightpink;
+	padding:1em;
+}
+.hijo:nth-child(1){
+	grid-column:1 /span 3;
+	grid-row:1 / span 2;
+}
+.hijo:nth-child(2){
+	grid-column:4/span 2;
+	grid-row:1 / span 2;
+}
+.hijo:nth-child(3){
+	grid-column:6/span 2;
+}
