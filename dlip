@@ -1,0 +1,33 @@
+Seguridad Informatica : lunes de 6.30 a 9.30 p.m. sexto semestre
+
+Desarrollo de aplicaciones web viernes 2 a 5 p.m. terecer semestre
+
+Desarrollo de aplucaciones web con PHP viernes de 5 a 8 p.m. cuarto semestre ya han visto base de datos desde segundo semestr
+
+https://bennettfeely.com/clippy/
+clip-path:inset(0 0 0 0);
+clip-path:circle(50% at center);
+clip-path:circle(50% at 0 0);
+clip-path:circle(50% at 0 0);
+clip-path:polygon(0 0, 100% 0, 0 100%);
+ 
+
+ div {
+  transition: 0.4s cubic-bezier(1, -1, 0, 2);
+  clip-path: polygon(50% 5%, 0% 100%, 100% 100%);
+}
+div:hover {
+  clip-path: polygon(50% 19%, 0 76%, 100% 76%);
+}
+
+
+img {
+  width: 150px;
+  -webkit-mask-image: -webkit-gradient(
+    linear, left top, right bottom, 
+    color-stop(0.00,  rgba(0,0,0,1)),
+    color-stop(0.35,  rgba(0,0,0,1)),
+    color-stop(0.50,  rgba(0,0,0,0)),
+    color-stop(0.65,  rgba(0,0,0,0)),
+    color-stop(1.00,  rgba(0,0,0,0)));
+}a
